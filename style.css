@@ -1,19 +1,35 @@
-
-html, 
-body {
-    padding: 0;
-    margin: 0;
+html {
+    background-color: #fffdfa;
 }
 
+body {
+    padding: 20px;
+    margin: 30px;
+}
+#page-body {
+    color: #585a61;
+    background-color: #faf0e6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+hr {
+    width: 30%;
+    margin-left: 0%;
+    border: 1px solid #767982;
+}
+
+/* Nav */
 nav {
-    background-color:linen;
+    background-color:#afa9a1;
+    border-radius: 5px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 20px 10px;
-    width: 50%;
-    margin: auto;
+    padding: 20px 0px;
+    margin: 0px 10px;
 }
 
 nav li {
@@ -23,12 +39,24 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: slategray;
+    color: #e6ebfa;
     padding: 10px;
     border-radius: 2px;
 }
 
 nav a:hover {
-    background-color: slategray;
-    color: linen;
+    background-color: #e6ebfa;
+    color: #afa9a1;
+}
+
+a {
+    color: slategray;
+    text-decoration-color: slategray;
+    text-decoration-thickness: 2px;
+}
+
+nav hr {
+    border: 2px solid #e6ebfa;
+    margin: 15px 5px 0px;
+    width: auto;
 }
