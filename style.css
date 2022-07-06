@@ -1,0 +1,34 @@
+
+html, 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color:linen;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px 10px;
+    width: 50%;
+    margin: auto;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: slategray;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+nav a:hover {
+    background-color: slategray;
+    color: linen;
+}
